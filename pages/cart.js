@@ -4,7 +4,7 @@ import styles from "../styles/Cart.module.css";
 import Link from "next/link";
 
 import { useSelector } from "react-redux";
-const cart = () => {
+const Cart = () => {
   const cartItems = useSelector((state) => state.cart.cart);
   return (
     <div className={styles.cart}>
@@ -26,7 +26,7 @@ const cart = () => {
   );
 };
 
-export default cart;
+export default Cart;
 
 const CartTotalCard = () => (
   <div className={styles.card}>
