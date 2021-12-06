@@ -10,7 +10,7 @@ import delivery from "../public/Images/delivery.png";
 import imageOne from "../public/Images/1.JPG";
 import imageTwo from "../public/Images/2.JPG";
 import imageThree from "../public/Images/3.JPG";
-import pageBanner from "../public/Images/inpagebanner.jpg";
+import pageBanner from "../public/Images/inpagebanner.JPG";
 import logo from "../public/Images/logo.png";
 import data from "../dummydata/data";
 import ProductCard from "../components/ProductCard";
