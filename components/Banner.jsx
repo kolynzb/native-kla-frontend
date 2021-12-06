@@ -61,6 +61,3 @@ const Banner = () => {
 };
 
 export default Banner;
-const Bannerr = () => {
-  return <div></div>;
-};
