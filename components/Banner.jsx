@@ -19,42 +19,38 @@ const Banner = () => {
         loop={true}
         lazy={true}
       >
-        <SwiperSlide>
-          <Image
-            src={hero}
-            className={styles.bannerImage}
-            alt="Vercel Logo"
-            width={1500}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide className={styles.swiperSlide}>
+          <Image src={hero} className={styles.bannerImage} alt="Vercel Logo" />
+        </SwiperSlide> */}
+        <SwiperSlide className={styles.swiperSlide}>
           <Image
             src={bannerO}
             className={styles.bannerImage}
             alt="Vercel Logo"
+            layout="fill"
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.swiperSlide}>
           <Image
             src={bannerT}
             className={styles.bannerImage}
             alt="Vercel Logo"
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.swiperSlide}>
           <Image
             src={bannerTH}
             className={styles.bannerImage}
             alt="Vercel Logo"
           />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide className={styles.swiperSlide}>
           <Image
             src={bannerF}
             className={styles.bannerImage}
             alt="Vercel Logo"
           />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

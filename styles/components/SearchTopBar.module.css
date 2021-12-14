@@ -42,3 +42,15 @@
   right: 50px;
   z-index: 9999999;
 }
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 1024px) {
+  .line {
+    width: 200%;
+  }
+  .searchInput {
+    font-size: 40px;
+  }
+}

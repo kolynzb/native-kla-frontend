@@ -102,3 +102,12 @@
   flex-direction: column;
   height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .cartSidebar {
+    width: 100vw;
+  }
+  .overlay {
+    width: 0vw;
+  }
+}

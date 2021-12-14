@@ -6,13 +6,8 @@ const ProductCard = (props) => {
     <div className="productCard">
       <div className="card">
         <div className="top">
-          <Image
-            src={props.img}
-            alt="Product"
-            width={411}
-            height={669}
-            placeholder="blur"
-          />
+          <Image src={props.img} alt="Product" width={411} height={669} />{" "}
+          {/*placeholder blur */}
           <div className="overlay">
             <div className="overlayShadow"></div>
             <Link href={`/shop/${props.id}`} passHref>

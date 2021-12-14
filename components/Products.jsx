@@ -18,6 +18,7 @@ const Products = () => {
           display: flex;
           justify-content: space-between;
           align-items: center;
+
           flex-wrap: wrap;
           padding: 0 60px;
         }

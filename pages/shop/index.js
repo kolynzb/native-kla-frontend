@@ -5,9 +5,9 @@ import styles from "../../styles/Shop.module.css";
 const shop = () => {
   return (
     <div className={styles.shopPage}>
-      <div className={styles.left}>
+      <aside className={styles.left}>
         <Sidebar />
-      </div>
+      </aside>
       <Right />
     </div>
   );

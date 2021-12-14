@@ -126,3 +126,34 @@
   width: 230px;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 640px) {
+  .products {
+    margin-right: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .left {
+    display: none;
+  }
+  .Header {
+    display: none;
+  }
+  .pgTitle {
+    text-align: center;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 1024px) {
+}

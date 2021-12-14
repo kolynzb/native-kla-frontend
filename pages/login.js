@@ -124,6 +124,14 @@ const Inputt = (props) => {
         .form input:valid + .label-name .content-name {
           transform: translateY(-115%);
         }
+        @media screen and (max-width: 768px) {
+          .content-name {
+            font-size: 16px;
+          }
+          .form {
+            width: 72%;
+          }
+        }
       `}</style>
     </div>
   );

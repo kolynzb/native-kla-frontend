@@ -1,5 +1,5 @@
 .Bannner {
-  height: 80vh;
+  /* height: 80vh; */
   width: 100%;
   position: relative;
 }
@@ -19,7 +19,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.431);
+  /* background: rgba(0, 0, 0, 0.431); */
 }
 .title {
   color: #fff;
@@ -95,4 +95,38 @@
   margin-left: 20px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 640px) {
+  .cards {
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pgcontent {
+    flex-direction: column;
+  }
+  .contactForm {
+    margin-bottom: 20px;
+  }
+  .card {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.644);
+  }
+  .icon > svg {
+    font-size: 25px;
+  }
+  .info > p {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .overlay {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
 }
